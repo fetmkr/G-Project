@@ -1,0 +1,30 @@
+Part	Value	Attributes	Package	Description	Part Num
+C1	10uF, 25V		C3528-TR3B		*
+C2	0.1uF, DNP		C0805(2012)		*
+D1	PMEG3050BEP		PMEG6020EP		*
+H1	MOUNT-PAD-ROUND3.2		3.2-PAD-ROUND		*
+H2	MOUNT-PAD-ROUND3.2		3.2-PAD-ROUND		*
+H3	MOUNT-PAD-ROUND3.2		3.2-PAD-ROUND		*
+H4	MOUNT-PAD-ROUND3.2		3.2-PAD-ROUND		*
+JP1			2X20	PIN HEADER	*
+LED1	Red		LED3MM	LEDs	*
+LED2	Green		LED3MM	LEDs	*
+R1	10k		0805-THM	RESISTOR, American symbol	*
+R2	1k		0805-THM	RESISTOR, American symbol	*
+R3	1k		0805-THM	RESISTOR, American symbol	*
+R4	10k		0805-THM	RESISTOR, American symbol	*
+R5	511R, DNP		R0805(2012)		*
+R6	1k		0805-THM	RESISTOR, American symbol	*
+R7	1k		0805-THM	RESISTOR, American symbol	*
+R8	10k		0805-THM	RESISTOR, American symbol	*
+R9	1k		0805-THM	RESISTOR, American symbol	*
+R10	1k, DNP		R0805(2012)		*
+R11	1k, DNP		R0805(2012)		*
+R12	1k		0805-THM	RESISTOR, American symbol	*
+S1			SKHLACA010		*
+S2			SKHLACA010		*
+U1	TSR12450		TSR12450		*
+X1	2.1MMJACKTHM		PJ-102A	2.1mm x 5.5mm THM DC jack with internal switch. Digikey part #PJ-102A, 4UCON part #05537	*
+X2	5268-02		5628-02		*
+X3	5268-02		5628-02		*
+X4	5268-03		5268-03		*
