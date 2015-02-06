@@ -4012,6 +4012,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <sheets>
 <sheet>
 <plain>
+<text x="198.12" y="68.58" size="1.778" layer="94">SW1: GPIO4 / INPUT</text>
+<text x="198.12" y="66.04" size="1.778" layer="94">SW2: GPIO17 / INPUT</text>
+<text x="198.12" y="63.5" size="1.778" layer="94">SW3: GPIO27 / INPUT</text>
+<text x="198.12" y="55.88" size="1.778" layer="94">LED1: GPIO22 / OUTPUT</text>
+<text x="198.12" y="53.34" size="1.778" layer="94">LED2: GPIO24 / OUTPUT</text>
+<text x="198.12" y="50.8" size="1.778" layer="94">LED3: GPIO23 / OUTPUT</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="12.7" y="7.62"/>
