@@ -6625,6 +6625,8 @@ DIN A3, landscape with extra doc field</description>
 <text x="187.96" y="25.4" size="1.778" layer="94">Test Button</text>
 <text x="223.52" y="25.4" size="1.778" layer="94">Input 1 (Option)</text>
 <text x="261.62" y="25.4" size="1.778" layer="94">Indicator LED</text>
+<text x="35.56" y="182.88" size="1.778" layer="91">0R for SSR FDD2510</text>
+<text x="114.3" y="182.88" size="1.778" layer="91">0R for SSR FDD2510</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="193.04" y="48.26" rot="R90"/>
