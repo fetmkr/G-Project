@@ -6547,9 +6547,9 @@ DIN A3, landscape with extra doc field</description>
 <part name="X5" library="Gcharger" deviceset="USB+SHIELD" device="" value="USB-B"/>
 <part name="X3" library="Gcharger" deviceset="USB-787616" device="" value="USB-A-Recep"/>
 <part name="X6" library="Gcharger" deviceset="USB-787616" device="" value="USB-A-Recep"/>
-<part name="H3" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
-<part name="H2" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="H4" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="H2" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
+<part name="H5" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 <part name="U4" library="Gcharger" deviceset="ARDUINOR3" device="-TPLACE"/>
 <part name="C8" library="adafruit" deviceset="C-US" device="050-024X044" value="0.1uF monolithic"/>
 <part name="R5" library="g-project" deviceset="R-US_" device="FLIPFLOP" value="10k, 1%"/>
@@ -6605,12 +6605,13 @@ DIN A3, landscape with extra doc field</description>
 <part name="X7" library="OSSI" deviceset="5268-02" device=""/>
 <part name="TVS1" library="Gcharger" deviceset="SD0" device=""/>
 <part name="TVS2" library="Gcharger" deviceset="SD0" device=""/>
-<part name="C2" library="Gcharger" deviceset="C" device="0603(1608)"/>
-<part name="C5" library="Gcharger" deviceset="C" device="0603(1608)"/>
-<part name="C1" library="Gcharger" deviceset="C" device="0603(1608)"/>
-<part name="C4" library="Gcharger" deviceset="C" device="0603(1608)"/>
+<part name="C2" library="Gcharger" deviceset="C" device="0603(1608)" value="0.01uF"/>
+<part name="C5" library="Gcharger" deviceset="C" device="0603(1608)" value="0.01uF"/>
+<part name="C1" library="Gcharger" deviceset="C" device="0603(1608)" value="0.1uF"/>
+<part name="C4" library="Gcharger" deviceset="C" device="0603(1608)" value="0.1uF"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
+<part name="H3" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6645,9 +6646,9 @@ DIN A3, landscape with extra doc field</description>
 <instance part="X5" gate="G$1" x="104.14" y="96.52" rot="MR0"/>
 <instance part="X3" gate="G$1" x="55.88" y="99.06"/>
 <instance part="X6" gate="G$1" x="137.16" y="99.06"/>
-<instance part="H3" gate="G$1" x="71.12" y="226.06"/>
+<instance part="H4" gate="G$1" x="71.12" y="226.06"/>
 <instance part="H2" gate="G$1" x="27.94" y="215.9"/>
-<instance part="H4" gate="G$1" x="71.12" y="215.9"/>
+<instance part="H5" gate="G$1" x="71.12" y="215.9"/>
 <instance part="U4" gate="G$1" x="233.68" y="132.08" rot="R90"/>
 <instance part="C8" gate="G$1" x="256.54" y="190.5"/>
 <instance part="R5" gate="G$1" x="58.42" y="38.1" rot="R90"/>
@@ -6710,6 +6711,7 @@ DIN A3, landscape with extra doc field</description>
 <instance part="C4" gate="G$1" x="101.6" y="45.72" rot="R180"/>
 <instance part="P+6" gate="1" x="20.32" y="60.96"/>
 <instance part="P+7" gate="1" x="101.6" y="60.96"/>
+<instance part="H3" gate="G$1" x="27.94" y="205.74"/>
 </instances>
 <busses>
 </busses>
